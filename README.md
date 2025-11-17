@@ -65,6 +65,98 @@ A modern, responsive portfolio website built with React, Vite, Tailwind CSS, and
    
    The application will automatically open at `http://localhost:3000`
 
+## 💻 Running in VS Code / Menjalankan di VS Code
+
+### English Instructions
+
+This project includes VS Code configuration for an optimal development experience.
+
+#### Step 1: Open in VS Code
+```bash
+code portfolio-website
+```
+Or use **File > Open Folder** in VS Code to open the project directory.
+
+#### Step 2: Install Recommended Extensions
+When you open the project, VS Code will prompt you to install recommended extensions. Click **Install All** or manually install:
+- ESLint - Code linting
+- Prettier - Code formatting
+- Tailwind CSS IntelliSense - CSS autocomplete
+- ES7+ React/Redux/React-Native snippets - React snippets
+- Auto Rename Tag - Automatically rename paired HTML/JSX tags
+- Path Intellisense - Autocomplete filenames
+
+#### Step 3: Run the Development Server
+Choose one of these methods:
+
+**Method 1: Using Terminal (Recommended)**
+- Press `` Ctrl+` `` (or `` Cmd+` `` on Mac) to open integrated terminal
+- Run: `npm run dev`
+- The site will open at `http://localhost:3000`
+
+**Method 2: Using Tasks**
+- Press `Ctrl+Shift+B` (or `Cmd+Shift+B` on Mac)
+- Select "npm: dev" to start the development server
+
+**Method 3: Using Debug**
+- Press `F5` or go to **Run and Debug** (Ctrl+Shift+D)
+- Select "Launch Chrome against localhost" or "Launch Edge against localhost"
+- The browser will open automatically with debugging enabled
+
+#### Available VS Code Tasks
+Access via `Ctrl+Shift+P` > "Tasks: Run Task":
+- `npm: dev` - Start development server
+- `npm: build` - Build for production
+- `npm: preview` - Preview production build
+- `npm: lint` - Run ESLint
+
+---
+
+### Instruksi Bahasa Indonesia
+
+Proyek ini sudah dilengkapi dengan konfigurasi VS Code untuk pengalaman development yang optimal.
+
+#### Langkah 1: Buka di VS Code
+```bash
+code portfolio-website
+```
+Atau gunakan menu **File > Open Folder** di VS Code untuk membuka direktori proyek.
+
+#### Langkah 2: Install Ekstensi yang Direkomendasikan
+Ketika membuka proyek, VS Code akan menampilkan notifikasi untuk menginstall ekstensi yang direkomendasikan. Klik **Install All** atau install manual:
+- ESLint - Untuk linting kode
+- Prettier - Untuk formatting kode
+- Tailwind CSS IntelliSense - Autocomplete CSS
+- ES7+ React/Redux/React-Native snippets - Snippet untuk React
+- Auto Rename Tag - Otomatis rename tag HTML/JSX berpasangan
+- Path Intellisense - Autocomplete nama file
+
+#### Langkah 3: Jalankan Development Server
+Pilih salah satu metode berikut:
+
+**Metode 1: Menggunakan Terminal (Direkomendasikan)**
+- Tekan `` Ctrl+` `` (atau `` Cmd+` `` di Mac) untuk membuka terminal terintegrasi
+- Jalankan: `npm run dev`
+- Website akan terbuka di `http://localhost:3000`
+
+**Metode 2: Menggunakan Tasks**
+- Tekan `Ctrl+Shift+B` (atau `Cmd+Shift+B` di Mac)
+- Pilih "npm: dev" untuk memulai development server
+
+**Metode 3: Menggunakan Debug**
+- Tekan `F5` atau buka menu **Run and Debug** (Ctrl+Shift+D)
+- Pilih "Launch Chrome against localhost" atau "Launch Edge against localhost"
+- Browser akan terbuka otomatis dengan debugging aktif
+
+#### Task VS Code yang Tersedia
+Akses melalui `Ctrl+Shift+P` > "Tasks: Run Task":
+- `npm: dev` - Memulai development server
+- `npm: build` - Build untuk production
+- `npm: preview` - Preview hasil build production
+- `npm: lint` - Menjalankan ESLint
+
+---
+
 ## 🚀 Build for Production
 
 To create a production build:
